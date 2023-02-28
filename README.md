@@ -23,6 +23,7 @@ _{This is a detailed description of your application. Give as much detail as nee
 * _Optionally, you can run ``dotnet build`` to compile this console app without running it._
 * _With the above Properties/launchSettings.json file in place, we can run the following: ``dotnet watch run``_
 * _If we want to run our project in production mode with a watcher, we can use a command line flag to specify that we want to run the "production" profile. ``dotnet watch run --launch-profile "production"``_
+*  _Open the browser to [https://localhost:5001]. If you cannot access localhost:5001 it is likely because you have not configured a .NET developer security certificate for HTTPS. To learn about this, review this lesson: (Redirecting to HTTPS and Issuing a Security Certificate.)[https://www.learnhowtoprogram.com/c-and-net/basic-web-applications/redirecting-to-https-and-issuing-a-security-certificate]_
 
 
 ## Known Bugs

@@ -1,12 +1,12 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjectName.Models;
+using ToDoList.Models;
 using System.Collections.Generic; 
 using System;
 
-namespace ProjectName.Tests
+namespace ToDoList.Tests
 {
   [TestClass]
-  public class ClassNameTests
+  public class ItemTests
   {
   [TestMethod]
     public void ClassNameConstructor_CreatesInstanceOfClassName_ClassName()
