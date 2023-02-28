@@ -1,8 +1,8 @@
-# _{Application Name}_
+# _To Do List_
 
 #### By Eliot Gronstal
 
-#### _{Brief description of application}_
+#### _ASP.NET Core MVC Class Project using multiple controllers for Epicodus Coding School Week 2 of C#._
 
 ## Technologies Used
 
@@ -21,7 +21,8 @@ _{This is a detailed description of your application. Give as much detail as nee
 * _Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory called "ProjectName"._
 * _In the command line, run the command ``dotnet run`` to compile and execute the console application. Since this is a console application, you'll interact with it through text commands in your terminal._
 * _Optionally, you can run ``dotnet build`` to compile this console app without running it._
-* _cont'd_
+* _With the above Properties/launchSettings.json file in place, we can run the following: ``dotnet watch run``_
+* _If we want to run our project in production mode with a watcher, we can use a command line flag to specify that we want to run the "production" profile. ``dotnet watch run --launch-profile "production"``_
 
 
 ## Known Bugs
