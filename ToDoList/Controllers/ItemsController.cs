@@ -22,7 +22,7 @@ namespace ToDoList.Controllers
     [HttpPost("/items")]
     public ActionResult Create(string description)
     {
-      Item myItem = new Item(description);
+      Item myItem = new Item(description, 1);
       return RedirectToAction("Index");
     }
 
